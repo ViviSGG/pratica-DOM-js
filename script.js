@@ -3,7 +3,7 @@ let ligar = document.getElementsByTagName("on"); /* getElementsByTagName - pega 
 let desligar = document.getElementsByTagName("off"); /* getElementsByTagName - pega os elementos pelo nome da tag */
 let bg = document.querySelector("main"); /* o getElementsByTagName não pegou na tag main  */
 console.log(bg);
-let titulo = document.querySelector("h1");
+let titulo = document.querySelector("h1"); // querySelectorAll - funciona igual ao css, onde pode selecionar uma tag filha (não consegui usar esse)
 
 function lampLigar() {
   lampada.src = "./assets/on.png";
